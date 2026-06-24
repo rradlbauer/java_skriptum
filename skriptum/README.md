@@ -25,15 +25,16 @@ Ein Skriptum für den Einstieg in Java, aufbauend auf Python-Kenntnissen.
 | 09.0 | [Generics (Typparameter)](skriptum/09.0_Generics.md) | [Übungen](uebungen/UE_09.0_Generics.md) |
 | 09.1 | [Java Collections – Grundlagen](skriptum/09.1_Collections.md) | [Übungen](uebungen/UE_09.1_Collections.md) |
 | 09.2 | [List, Set, Map und Implementierungen](skriptum/09.2_List_Set_Map.md) | [Übungen](uebungen/UE_09.2_List_Set_Map.md) |
-| 10.0 | [Streaming API](skriptum/10.0_Streaming_API.md) | [Übungen](uebungen/UE_10.0_Streaming_API.md) |
+| 09.3 | [Streaming API](skriptum/09.3_Streaming_API.md) | [Übungen](uebungen/UE_09.3_Streaming_API.md) |
+| 10.0 | [CSV-Dateien lesen und schreiben](skriptum/10.0_CSV_Dateien.md) | [Übungen](uebungen/UE_10.0_CSV_Dateien.md) |
 
 ## Verzeichnisstruktur
 
 ```
 java_skriptum/
 ├── README.md              Dieses Inhaltsverzeichnis
-├── skriptum/              Kapitel (21 Dateien)
-├── uebungen/              Übungen (21 Dateien)
+├── skriptum/              Kapitel (22 Dateien)
+├── uebungen/              Übungen (22 Dateien)
 ├── img/                   Bilder (vorbereitet)
 └── daten/                 Datendateien (vorbereitet)
 ```
