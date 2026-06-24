@@ -22,14 +22,18 @@ Ein Skriptum für den Einstieg in Java, aufbauend auf Python-Kenntnissen.
 | 07.0 | [Vererbung & Polymorphie](skriptum/07.0_Vererbung.md) | [Übungen](uebungen/UE_07.0_Vererbung.md) |
 | 07.1 | [Abstrakte Klassen & Interfaces](skriptum/07.1_Abstrakte_Klassen_und_Interfaces.md) | [Übungen](uebungen/UE_07.1_Abstrakte_Klassen_und_Interfaces.md) |
 | 08.0 | [Exception Handling](skriptum/08.0_Exception_Handling.md) | [Übungen](uebungen/UE_08.0_Exception_Handling.md) |
+| 09.0 | [Generics (Typparameter)](skriptum/09.0_Generics.md) | [Übungen](uebungen/UE_09.0_Generics.md) |
+| 09.1 | [Java Collections – Grundlagen](skriptum/09.1_Collections.md) | [Übungen](uebungen/UE_09.1_Collections.md) |
+| 09.2 | [List, Set, Map und Implementierungen](skriptum/09.2_List_Set_Map.md) | [Übungen](uebungen/UE_09.2_List_Set_Map.md) |
+| 10.0 | [Streaming API](skriptum/10.0_Streaming_API.md) | [Übungen](uebungen/UE_10.0_Streaming_API.md) |
 
 ## Verzeichnisstruktur
 
 ```
 java_skriptum/
 ├── README.md              Dieses Inhaltsverzeichnis
-├── skriptum/              Kapitel (17 Dateien)
-├── uebungen/              Übungen (17 Dateien)
+├── skriptum/              Kapitel (21 Dateien)
+├── uebungen/              Übungen (21 Dateien)
 ├── img/                   Bilder (vorbereitet)
 └── daten/                 Datendateien (vorbereitet)
 ```
