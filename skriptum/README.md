@@ -25,7 +25,8 @@ Ein Skriptum für den Einstieg in Java, aufbauend auf Python-Kenntnissen.
 | 09.0 | [Generics (Typparameter)](skriptum/09.0_Generics.md) | [Übungen](uebungen/UE_09.0_Generics.md) |
 | 09.1 | [Java Collections – Grundlagen](skriptum/09.1_Collections.md) | [Übungen](uebungen/UE_09.1_Collections.md) |
 | 09.2 | [List, Set, Map und Implementierungen](skriptum/09.2_List_Set_Map.md) | [Übungen](uebungen/UE_09.2_List_Set_Map.md) |
-| 09.3 | [Streaming API](skriptum/09.3_Streaming_API.md) | [Übungen](uebungen/UE_09.3_Streaming_API.md) |
+| 09.3 | [Lambda-Ausdrücke](skriptum/09.3_Lambda_Expressions.md) | [Übungen](uebungen/UE_09.3_Lambda_Expressions.md) |
+| 09.4 | [Streaming API](skriptum/09.4_Streaming_API.md) | [Übungen](uebungen/UE_09.4_Streaming_API.md) |
 | 10.0 | [CSV-Dateien lesen und schreiben](skriptum/10.0_CSV_Dateien.md) | [Übungen](uebungen/UE_10.0_CSV_Dateien.md) |
 | 11.0 | [JDBC mit MySQL](skriptum/11.0_JDBC.md) | [Übungen](uebungen/UE_11.0_JDBC.md) |
 | 11.1 | [JPA – Grundlagen (EntityManager, ORM)](skriptum/11.1_JPA_Grundlagen.md) | [Übungen](uebungen/UE_11.1_JPA_Grundlagen.md) |
@@ -36,8 +37,8 @@ Ein Skriptum für den Einstieg in Java, aufbauend auf Python-Kenntnissen.
 ```
 java_skriptum/
 ├── README.md              Dieses Inhaltsverzeichnis
-├── skriptum/              Kapitel (25 Dateien)
-├── uebungen/              Übungen (25 Dateien)
+├── skriptum/              Kapitel (26 Dateien)
+├── uebungen/              Übungen (26 Dateien)
 ├── img/                   Bilder (vorbereitet)
 └── daten/                 Datendateien (vorbereitet)
 ```
