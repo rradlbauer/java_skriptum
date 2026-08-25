@@ -8,10 +8,10 @@ Ein Skriptum für den Einstieg in Java, aufbauend auf Python-Kenntnissen.
 | 01.0 | [Wesentliche Unterschiede Python vs. Java](skriptum/01.0_Unterschiede_Python_vs_Java.md) | [Übungen](uebungen/UE_01.0_Unterschiede_Python_vs_Java.md) |
 | 01.1 | [Installation (JDK, IntelliJ)](skriptum/01.1_Installation.md) | – |
 | 02.0 | [Erste Schritte mit JShell](skriptum/02.0_JShell.md) | [Übungen](uebungen/UE_02.0_JShell.md) |
-| 02.1 | [Grundlegende Syntax & strenge Typisierung](skriptum/02.1_Grundlegende_Syntax.md) | [Übungen](uebungen/UE_02.1_Grundlegende_Syntax.md) |
-| 02.2 | [Primitive Datentypen & Wrapper-Klassen](skriptum/02.2_Datentypen.md) | [Übungen](uebungen/UE_02.2_Datentypen.md) |
-| 03.0 | [Hello World ohne IDE](skriptum/03.0_HelloWorld_ohne_IDE.md) | [Übungen](uebungen/UE_03.0_HelloWorld_ohne_IDE.md) |
-| 03.1 | [Packages & voll qualifizierte Klassennamen](skriptum/03.1_Packages.md) | [Übungen](uebungen/UE_03.1_Packages.md) |
+| 02.1 | [Hello World ohne IDE](skriptum/02.1_HelloWorld_ohne_IDE.md) | [Übungen](uebungen/UE_02.1_HelloWorld_ohne_IDE.md) |
+| 03.0 | [Grundlegende Syntax & strenge Typisierung](skriptum/03.0_Grundlegende_Syntax.md) | [Übungen](uebungen/UE_03.0_Grundlegende_Syntax.md) |
+| 03.1 | [Primitive Datentypen & Wrapper-Klassen](skriptum/03.1_Datentypen.md) | [Übungen](uebungen/UE_03.1_Datentypen.md) |
+| 03.2 | [Packages & voll qualifizierte Klassennamen](skriptum/03.2_Packages.md) | [Übungen](uebungen/UE_03.2_Packages.md) |
 | 04.0 | [Einführung IntelliJ](skriptum/04.0_IntelliJ.md) | [Übungen](uebungen/UE_04.0_IntelliJ.md) |
 | 05.0 | [OOP-Grundlagen (Klassen, Instanzen, Methoden)](skriptum/05.0_OOP_Grundlagen.md) | [Übungen](uebungen/UE_05.0_OOP_Grundlagen.md) |
 | 05.1 | [Zugriffsmodifizierer & Datenkapselung](skriptum/05.1_Zugriffsmodifizierer.md) | [Übungen](uebungen/UE_05.1_Zugriffsmodifizierer.md) |
