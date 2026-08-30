@@ -28,17 +28,18 @@ Ein Skriptum für den Einstieg in Java, aufbauend auf Python-Kenntnissen.
 | 09.3 | [Lambda-Ausdrücke](skriptum/09.3_Lambda_Expressions.md) | [Übungen](uebungen/UE_09.3_Lambda_Expressions.md) |
 | 09.4 | [Streaming API](skriptum/09.4_Streaming_API.md) | [Übungen](uebungen/UE_09.4_Streaming_API.md) |
 | 10.0 | [CSV-Dateien lesen und schreiben](skriptum/10.0_CSV_Dateien.md) | [Übungen](uebungen/UE_10.0_CSV_Dateien.md) |
-| 11.0 | [JDBC mit MySQL](skriptum/11.0_JDBC.md) | [Übungen](uebungen/UE_11.0_JDBC.md) |
-| 11.1 | [JPA – Grundlagen (EntityManager, ORM)](skriptum/11.1_JPA_Grundlagen.md) | [Übungen](uebungen/UE_11.1_JPA_Grundlagen.md) |
-| 11.2 | [JPA – Relationen zwischen Entitäten](skriptum/11.2_JPA_Relationen.md) | [Übungen](uebungen/UE_11.2_JPA_Relationen.md) |
+| 11.0 | [Unit-Tests mit JUnit & Maven](skriptum/11.0_Unit_Test_JUnit.md) | [Übungen](uebungen/UE_11.0_Unit_Test_JUnit.md) |
+| 12.0 | [JDBC mit MySQL](skriptum/12.0_JDBC.md) | [Übungen](uebungen/UE_12.0_JDBC.md) |
+| 12.1 | [JPA – Grundlagen (EntityManager, ORM)](skriptum/12.1_JPA_Grundlagen.md) | [Übungen](uebungen/UE_12.1_JPA_Grundlagen.md) |
+| 12.2 | [JPA – Relationen zwischen Entitäten](skriptum/12.2_JPA_Relationen.md) | [Übungen](uebungen/UE_12.2_JPA_Relationen.md) |
 
 ## Verzeichnisstruktur
 
 ```
 java_skriptum/
 ├── README.md              Dieses Inhaltsverzeichnis
-├── skriptum/              Kapitel (26 Dateien)
-├── uebungen/              Übungen (26 Dateien)
+├── skriptum/              Kapitel (27 Dateien)
+├── uebungen/              Übungen (27 Dateien)
 ├── img/                   Bilder (vorbereitet)
 └── daten/                 Datendateien (vorbereitet)
 ```
