@@ -5,6 +5,10 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import java.time.LocalDate;
 
+/**
+ * JPA entity mapped to the "vaccinations" table. Each vaccination belongs to
+ * exactly one patient through a many-to-one relationship.
+ */
 @Entity
 @Table(name = "vaccinations")
 public class Vaccination {
@@ -22,6 +26,9 @@ public class Vaccination {
     @NotBlank(message = "Doctor is required")
     private String doctor;
 
+    // Many-to-one: many vaccinations reference one patient. The foreign key
+    // column "patient_id" in the vaccinations table links to the patients
+    // table (see skriptum chapter 12.2).
     @ManyToOne
     @JoinColumn(name = "patient_id")
     private Patient patient;

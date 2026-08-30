@@ -9,6 +9,8 @@
 
 <h2>Add Vaccination — <span th:text="${patient.name}"></span></h2>
 
+<!-- The URL contains the current patient's id as a path variable. The form
+     posts the new vaccination back to the same URL (skriptum chapter 13.1). -->
 <form th:action="@{/patients/{id}/vaccinations/add(id=${patient.id})}"
       th:object="${vaccination}" method="post" class="mt-3" style="max-width:400px">
 

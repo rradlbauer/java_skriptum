@@ -32,14 +32,20 @@ Ein Skriptum für den Einstieg in Java, aufbauend auf Python-Kenntnissen.
 | 12.0 | [JDBC mit MySQL](skriptum/12.0_JDBC.md) | [Übungen](uebungen/UE_12.0_JDBC.md) |
 | 12.1 | [JPA – Grundlagen (EntityManager, ORM)](skriptum/12.1_JPA_Grundlagen.md) | [Übungen](uebungen/UE_12.1_JPA_Grundlagen.md) |
 | 12.2 | [JPA – Relationen zwischen Entitäten](skriptum/12.2_JPA_Relationen.md) | [Übungen](uebungen/UE_12.2_JPA_Relationen.md) |
+| 13.0 | [Spring Boot – Grundlagen](skriptum/13.0_Spring_Boot_Grundlagen.md) | [Übungen](uebungen/UE_13.0_Spring_Boot_Grundlagen.md) |
+| 13.1 | [Spring MVC – Controller](skriptum/13.1_Spring_MVC_Controller.md) | [Übungen](uebungen/UE_13.1_Spring_MVC_Controller.md) |
+| 13.2 | [Spring Data JPA – Repositories](skriptum/13.2_Spring_Data_JPA.md) | [Übungen](uebungen/UE_13.2_Spring_Data_JPA.md) |
+| 13.3 | [Bean Validation – Eingaben prüfen](skriptum/13.3_Bean_Validation.md) | [Übungen](uebungen/UE_13.3_Bean_Validation.md) |
+| 13.4 | [Thymeleaf – Server-seitige Templates](skriptum/13.4_Thymeleaf.md) | [Übungen](uebungen/UE_13.4_Thymeleaf.md) |
 
 ## Verzeichnisstruktur
 
 ```
 java_skriptum/
 ├── README.md              Dieses Inhaltsverzeichnis
-├── skriptum/              Kapitel (27 Dateien)
-├── uebungen/              Übungen (27 Dateien)
+├── skriptum/              Kapitel (32 Dateien)
+├── uebungen/              Übungen (32 Dateien)
 ├── img/                   Bilder (vorbereitet)
-└── daten/                 Datendateien (vorbereitet)
+├── daten/                 Datendateien (vorbereitet)
+└── src/                   Spring-Boot-Impfverwaltung (vax)
 ```

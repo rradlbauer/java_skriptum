@@ -9,10 +9,15 @@
 
 <h2>Register Patient</h2>
 
+<!-- th:object binds the form to the "patient" model attribute.
+     th:field binds each input to the matching field of that object.
+     The form is submitted via POST to /patients/register (chapter 13.1/13.4). -->
 <form th:action="@{/patients/register}" th:object="${patient}" method="post" class="mt-3" style="max-width:400px">
 
     <div class="mb-3">
         <label class="form-label">Name</label>
+        <!-- "is-invalid" is added when the field has a validation error;
+             the error message is shown by th:errors below (chapter 13.3). -->
         <input type="text" th:field="*{name}" class="form-control"
                th:classappend="${#fields.hasErrors('name')} ? 'is-invalid'"/>
         <div class="invalid-feedback" th:errors="*{name}"></div>

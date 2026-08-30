@@ -8,6 +8,7 @@
 <body class="container mt-4">
 
 <h2>Patients</h2>
+<!-- Thymeleaf link helper: @{...} builds an URL to "/patients/register". -->
 <a th:href="@{/patients/register}" class="btn btn-primary mb-3">Register Patient</a>
 
 <table class="table table-bordered table-striped">
@@ -20,11 +21,14 @@
         </tr>
     </thead>
     <tbody>
+        <!-- th:each iterates over the "patients" model attribute; each
+             patient is available as variable "p" (skriptum chapter 13.4). -->
         <tr th:each="p : ${patients}">
             <td th:text="${p.name}"></td>
             <td th:text="${p.birthdate}"></td>
             <td th:text="${p.ssn}"></td>
             <td>
+                <!-- The {id} placeholder is filled with p.id by the (...) part. -->
                 <a th:href="@{/patients/{id}/vaccinations(id=${p.id})}" class="btn btn-sm btn-outline-secondary">
                     View (<span th:text="${p.vaccinations.size()}"></span>)
                 </a>

@@ -13,6 +13,7 @@
     SSN: <span th:text="${patient.ssn}"></span>
 </p>
 
+<!-- Link to add a new vaccination for this patient; {id} is the patient id. -->
 <a th:href="@{/patients/{id}/vaccinations/add(id=${patient.id})}" class="btn btn-primary mb-3">Add Vaccination</a>
 <a th:href="@{/patients}" class="btn btn-secondary mb-3">Back to Patients</a>
 
@@ -25,6 +26,7 @@
         </tr>
     </thead>
     <tbody>
+        <!-- Iterates over the "vaccinations" model attribute (chapter 13.4). -->
           <tr th:each="v : ${vaccinations}">
             <td th:text="${v.agent}"></td>
             <td th:text="${v.date}"></td>
