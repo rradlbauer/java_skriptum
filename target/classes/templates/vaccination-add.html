@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Add Vaccination</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/>
+</head>
+<body class="container mt-4">
+
+<h2>Add Vaccination — <span th:text="${patient.name}"></span></h2>
+
+<form th:action="@{/patients/{id}/vaccinations/add(id=${patient.id})}"
+      th:object="${vaccination}" method="post" class="mt-3" style="max-width:400px">
+
+    <div class="mb-3">
+        <label class="form-label">Vaccine Agent</label>
+        <input type="text" th:field="*{agent}" class="form-control"
+               th:classappend="${#fields.hasErrors('agent')} ? 'is-invalid'"/>
+        <div class="invalid-feedback" th:errors="*{agent}"></div>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Date</label>
+        <input type="date" th:field="*{date}" class="form-control"
+               th:classappend="${#fields.hasErrors('date')} ? 'is-invalid'"/>
+        <div class="invalid-feedback" th:errors="*{date}"></div>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Doctor</label>
+        <input type="text" th:field="*{doctor}" class="form-control"
+               th:classappend="${#fields.hasErrors('doctor')} ? 'is-invalid'"/>
+        <div class="invalid-feedback" th:errors="*{doctor}"></div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a th:href="@{/patients/{id}/vaccinations(id=${patient.id})}" class="btn btn-secondary">Cancel</a>
+</form>
+
+</body>
+</html>
