@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>160</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Patient
+--
+name : String
+birthDate : LocalDate
+diagnosis : String
+stayDuration : int
+--
+calculateAge() : int
+display()</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
